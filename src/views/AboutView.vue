@@ -1,6 +1,6 @@
 <template>
 
-
+<h1>Dlonra Academy</h1>
 <table class="center" >
   <tr>
     <th>Email</th>

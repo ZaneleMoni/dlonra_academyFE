@@ -1,4 +1,5 @@
 <template>
+<h1>Dlonra Academy</h1>
    <div class="container1">
     <div class="row d-flex align-items-center justify-content-center">
       <div class="col-md-6">
@@ -105,6 +106,7 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: none;
   background: #242323;
+  border-radius:50px;
 }
 
 input[type=text]:focus, input[type=password]:focus {
