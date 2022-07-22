@@ -86,7 +86,12 @@ methods:{
 
 <style scoped>
 * {box-sizing: border-box}
-
+h1{
+  font-family: montsserat;
+}
+h3{
+  font-family: montsserat;
+}
 /* Add padding to containers */
 .container1 {
   margin: 0 auto;

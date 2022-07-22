@@ -42,7 +42,10 @@ fetch("http://localhost:8000/users")
 
 </script>
 
-<style>
+<style scoped>
+h1{
+  font-family: montsserat;
+}
 table, th, td {
   border:1px solid black;
 }
