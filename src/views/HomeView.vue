@@ -88,8 +88,13 @@ methods:{
 
 /* Add padding to containers */
 .container1 {
+  margin: 0 auto;
   padding: 16px;
-  box-shadow: 50%;
+  height: 50%;
+  width:50%;
+  box-shadow: 10px 17px 37px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 17px 37px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 17px 37px 0px rgba(0,0,0,0.75);
 }
 
 /* Full-width input fields */
