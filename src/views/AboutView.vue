@@ -43,5 +43,7 @@ fetch("http://localhost:8000/users")
 </script>
 
 <style>
-
+table, th, td {
+  border:1px solid black;
+}
 </style>
