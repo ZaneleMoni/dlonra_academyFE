@@ -1,7 +1,7 @@
 <template>
 
 
-<table >
+<table class="center" >
   <tr>
     <th>Email</th>
     <th>Name</th>
@@ -45,5 +45,9 @@ fetch("http://localhost:8000/users")
 <style>
 table, th, td {
   border:1px solid black;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>

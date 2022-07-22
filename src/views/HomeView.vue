@@ -35,7 +35,7 @@
                 required
               />
             </div>
-            <button class="btn btn-primary mt-4 signup" type="submit">
+            <button id="register" class="btn btn-primary mt-4 signup" type="submit">
               Sign up!
             </button>
           </form>
@@ -83,6 +83,48 @@ methods:{
 
 </script>
 
-<style>
+<style scoped>
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container1 {
+  padding: 16px;
+  box-shadow: 50%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #242323;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Set a style for the submit/register button */
+#register {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border-radius: 50px !important;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+.register:hover {
+  opacity:1;
+}
+
+
+
 
 </style>
